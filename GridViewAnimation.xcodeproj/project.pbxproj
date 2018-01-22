@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49053E162015C1580000AC64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49053E152015C1580000AC64 /* AppDelegate.swift */; };
+		49053E182015C1580000AC64 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49053E172015C1580000AC64 /* ViewController.swift */; };
+		49053E1B2015C1580000AC64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49053E192015C1580000AC64 /* Main.storyboard */; };
+		49053E1D2015C1580000AC64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49053E1C2015C1580000AC64 /* Assets.xcassets */; };
+		49053E202015C1580000AC64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49053E1E2015C1580000AC64 /* LaunchScreen.storyboard */; };
+		49053E2B2015C1580000AC64 /* GridViewAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49053E2A2015C1580000AC64 /* GridViewAnimationTests.swift */; };
+		49053E362015C1580000AC64 /* GridViewAnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49053E352015C1580000AC64 /* GridViewAnimationUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49053E272015C1580000AC64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49053E0A2015C1580000AC64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49053E112015C1580000AC64;
+			remoteInfo = GridViewAnimation;
+		};
+		49053E322015C1580000AC64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49053E0A2015C1580000AC64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49053E112015C1580000AC64;
+			remoteInfo = GridViewAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		49053E122015C1580000AC64 /* GridViewAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GridViewAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49053E152015C1580000AC64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		49053E172015C1580000AC64 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		49053E1A2015C1580000AC64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		49053E1C2015C1580000AC64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49053E1F2015C1580000AC64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		49053E212015C1580000AC64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49053E262015C1580000AC64 /* GridViewAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GridViewAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49053E2A2015C1580000AC64 /* GridViewAnimationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridViewAnimationTests.swift; sourceTree = "<group>"; };
+		49053E2C2015C1580000AC64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49053E312015C1580000AC64 /* GridViewAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GridViewAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49053E352015C1580000AC64 /* GridViewAnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridViewAnimationUITests.swift; sourceTree = "<group>"; };
+		49053E372015C1580000AC64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49053E0F2015C1580000AC64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49053E232015C1580000AC64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49053E2E2015C1580000AC64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49053E092015C1580000AC64 = {
+			isa = PBXGroup;
+			children = (
+				49053E142015C1580000AC64 /* GridViewAnimation */,
+				49053E292015C1580000AC64 /* GridViewAnimationTests */,
+				49053E342015C1580000AC64 /* GridViewAnimationUITests */,
+				49053E132015C1580000AC64 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49053E132015C1580000AC64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49053E122015C1580000AC64 /* GridViewAnimation.app */,
+				49053E262015C1580000AC64 /* GridViewAnimationTests.xctest */,
+				49053E312015C1580000AC64 /* GridViewAnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49053E142015C1580000AC64 /* GridViewAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				49053E152015C1580000AC64 /* AppDelegate.swift */,
+				49053E172015C1580000AC64 /* ViewController.swift */,
+				49053E192015C1580000AC64 /* Main.storyboard */,
+				49053E1C2015C1580000AC64 /* Assets.xcassets */,
+				49053E1E2015C1580000AC64 /* LaunchScreen.storyboard */,
+				49053E212015C1580000AC64 /* Info.plist */,
+			);
+			path = GridViewAnimation;
+			sourceTree = "<group>";
+		};
+		49053E292015C1580000AC64 /* GridViewAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				49053E2A2015C1580000AC64 /* GridViewAnimationTests.swift */,
+				49053E2C2015C1580000AC64 /* Info.plist */,
+			);
+			path = GridViewAnimationTests;
+			sourceTree = "<group>";
+		};
+		49053E342015C1580000AC64 /* GridViewAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				49053E352015C1580000AC64 /* GridViewAnimationUITests.swift */,
+				49053E372015C1580000AC64 /* Info.plist */,
+			);
+			path = GridViewAnimationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49053E112015C1580000AC64 /* GridViewAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49053E3A2015C1580000AC64 /* Build configuration list for PBXNativeTarget "GridViewAnimation" */;
+			buildPhases = (
+				49053E0E2015C1580000AC64 /* Sources */,
+				49053E0F2015C1580000AC64 /* Frameworks */,
+				49053E102015C1580000AC64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GridViewAnimation;
+			productName = GridViewAnimation;
+			productReference = 49053E122015C1580000AC64 /* GridViewAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		49053E252015C1580000AC64 /* GridViewAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49053E3D2015C1580000AC64 /* Build configuration list for PBXNativeTarget "GridViewAnimationTests" */;
+			buildPhases = (
+				49053E222015C1580000AC64 /* Sources */,
+				49053E232015C1580000AC64 /* Frameworks */,
+				49053E242015C1580000AC64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49053E282015C1580000AC64 /* PBXTargetDependency */,
+			);
+			name = GridViewAnimationTests;
+			productName = GridViewAnimationTests;
+			productReference = 49053E262015C1580000AC64 /* GridViewAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		49053E302015C1580000AC64 /* GridViewAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49053E402015C1580000AC64 /* Build configuration list for PBXNativeTarget "GridViewAnimationUITests" */;
+			buildPhases = (
+				49053E2D2015C1580000AC64 /* Sources */,
+				49053E2E2015C1580000AC64 /* Frameworks */,
+				49053E2F2015C1580000AC64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49053E332015C1580000AC64 /* PBXTargetDependency */,
+			);
+			name = GridViewAnimationUITests;
+			productName = GridViewAnimationUITests;
+			productReference = 49053E312015C1580000AC64 /* GridViewAnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49053E0A2015C1580000AC64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = RJ;
+				TargetAttributes = {
+					49053E112015C1580000AC64 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					49053E252015C1580000AC64 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 49053E112015C1580000AC64;
+					};
+					49053E302015C1580000AC64 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 49053E112015C1580000AC64;
+					};
+				};
+			};
+			buildConfigurationList = 49053E0D2015C1580000AC64 /* Build configuration list for PBXProject "GridViewAnimation" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49053E092015C1580000AC64;
+			productRefGroup = 49053E132015C1580000AC64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49053E112015C1580000AC64 /* GridViewAnimation */,
+				49053E252015C1580000AC64 /* GridViewAnimationTests */,
+				49053E302015C1580000AC64 /* GridViewAnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49053E102015C1580000AC64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49053E202015C1580000AC64 /* LaunchScreen.storyboard in Resources */,
+				49053E1D2015C1580000AC64 /* Assets.xcassets in Resources */,
+				49053E1B2015C1580000AC64 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49053E242015C1580000AC64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49053E2F2015C1580000AC64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49053E0E2015C1580000AC64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49053E182015C1580000AC64 /* ViewController.swift in Sources */,
+				49053E162015C1580000AC64 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49053E222015C1580000AC64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49053E2B2015C1580000AC64 /* GridViewAnimationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49053E2D2015C1580000AC64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49053E362015C1580000AC64 /* GridViewAnimationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49053E282015C1580000AC64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49053E112015C1580000AC64 /* GridViewAnimation */;
+			targetProxy = 49053E272015C1580000AC64 /* PBXContainerItemProxy */;
+		};
+		49053E332015C1580000AC64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49053E112015C1580000AC64 /* GridViewAnimation */;
+			targetProxy = 49053E322015C1580000AC64 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		49053E192015C1580000AC64 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49053E1A2015C1580000AC64 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		49053E1E2015C1580000AC64 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49053E1F2015C1580000AC64 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49053E382015C1580000AC64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		49053E392015C1580000AC64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49053E3B2015C1580000AC64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7KJ9J7B7F4;
+				INFOPLIST_FILE = GridViewAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rj.GridViewAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		49053E3C2015C1580000AC64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7KJ9J7B7F4;
+				INFOPLIST_FILE = GridViewAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rj.GridViewAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		49053E3E2015C1580000AC64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GridViewAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rj.GridViewAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GridViewAnimation.app/GridViewAnimation";
+			};
+			name = Debug;
+		};
+		49053E3F2015C1580000AC64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GridViewAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rj.GridViewAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GridViewAnimation.app/GridViewAnimation";
+			};
+			name = Release;
+		};
+		49053E412015C1580000AC64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GridViewAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rj.GridViewAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GridViewAnimation;
+			};
+			name = Debug;
+		};
+		49053E422015C1580000AC64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GridViewAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rj.GridViewAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GridViewAnimation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49053E0D2015C1580000AC64 /* Build configuration list for PBXProject "GridViewAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49053E382015C1580000AC64 /* Debug */,
+				49053E392015C1580000AC64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49053E3A2015C1580000AC64 /* Build configuration list for PBXNativeTarget "GridViewAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49053E3B2015C1580000AC64 /* Debug */,
+				49053E3C2015C1580000AC64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49053E3D2015C1580000AC64 /* Build configuration list for PBXNativeTarget "GridViewAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49053E3E2015C1580000AC64 /* Debug */,
+				49053E3F2015C1580000AC64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49053E402015C1580000AC64 /* Build configuration list for PBXNativeTarget "GridViewAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49053E412015C1580000AC64 /* Debug */,
+				49053E422015C1580000AC64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49053E0A2015C1580000AC64 /* Project object */;
+}
